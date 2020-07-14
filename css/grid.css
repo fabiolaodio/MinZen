@@ -1,0 +1,50 @@
+.container{
+  margin: auto;
+  padding: 30px;
+  max-width: 900px;
+}
+.row{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-image{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-descripcion{
+  width: 60%;
+  font-size: 35px;
+  text-align: justify;
+}
+
+.col-image, .col-descripcion{
+  padding: 10px;
+
+}
+
+.titulo-principal{
+
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+.titulo-principal{
+  border: solid 3px;
+  border-color: #5391A5;
+}
+
+@media (max-width: 768px) {
+  .col-image, .col-descripcion{
+    width:100%;
+  }
+  .row{
+    display: inherit;
+  }
+
+}

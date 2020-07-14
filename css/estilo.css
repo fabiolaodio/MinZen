@@ -1,0 +1,281 @@
+/* VARIABLES */
+
+:root{
+
+  /* colores */
+  --color-azul: #094E71;
+  --color-cafe: #A59253;
+  --color-celeste: #5391A5;
+ /* fuentes */
+
+
+}
+
+
+
+body, html{
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family:  Caveat;
+}
+/* Parte del NAV */
+nav{
+  font-family: Piedra;
+  display: flex;
+  background-color: var(--color-azul);
+  /* padding: 10px; */
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+
+}
+li{
+  padding-right: 10px;
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+
+}
+nav li a:hover{
+  color: #A59253;
+}
+
+ label{
+  font-family: monospace;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom:
+}
+
+
+/* Parte de la descripcion */
+
+
+.main-section{
+  padding: 20px;
+  text-align: center;
+
+}
+
+.descripcion{
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 25px;
+}
+/* SEPARADOR */
+.separador{
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 100%;
+  height: 0px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.separador1{
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 100%;
+  height: 0px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* PRODUCTOS */
+
+.fondo{
+  background-image: url("../images/fondo1.png");
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+  padding: 25px 25px 0px 25px;
+  display: flex;
+}
+.product .content{
+  background-color: rgba(165, 146, 83, 0.3);
+  padding: 20px;
+  box-shadow: 0 0 10px;
+
+}
+
+.product{
+  padding: 60px 10px 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.image-jardin{
+  margin-top: -60px;
+  box-shadow: 0 0 4px;
+  /* opacity: 0.8; */
+}
+
+.image-jardin:hover{
+    opacity: 0.5;
+    margin-top: -100px;
+}
+
+
+.des-producto{
+  font-size: 15px;
+}
+/* BOTON */
+
+.main-button{
+  background-color: var(--color-azul);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-style: none;
+   cursor: pointer; /* para que salga la manita cuando se está sobre el boton */
+   border-radius: 5px;
+
+}
+
+.main-button:hover{
+  background-color: #1d77a5;
+}
+
+/* seccion de beneficios */
+.titulo-beneficios{
+  font-family: Indie Flower;
+  font-size: 25px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+.beneficios{
+  display: flex;
+  margin: 30px;
+  padding: 0px 25px 0px 25px;
+  align-content: center;
+  justify-content: center;
+  font-size: 25px;
+
+}
+
+.contenido .contenido-beneficios{
+    padding: 20px;
+
+}
+
+.contenido-beneficios{
+  padding: 60px 10px 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+/* PARTE DE LAS MENCIONES */
+
+.menciones{
+  display: flex;
+  margin: 20px;
+  padding: 20px 0px 20px 0px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.contenido-menciones{
+  /* padding: 20px; */
+  margin: 20px;
+  text-align: center;
+  /* border: solid 5px; */
+  box-shadow: 0 0 5px;
+}
+
+.menciones-image{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+.nombre{
+  margin: 0px;
+}
+/* SECCION DE VENTA */
+
+.col-producto{
+  width: 50%;
+
+}
+
+.col-formulario{
+  width: 50%;
+
+
+}
+.modulo-pago{
+  /* background-color: rgba(165, 146, 83, 0.3); */
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  padding: 30px;
+  margin: 10px;
+}
+.modulo-pago input{
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+
+.letter{
+  display: flex;
+  font-family:  serif;
+  padding: 5px;
+
+}
+.modulo-pago, h3, p{
+  font-size: 25px;
+}
+
+.container{
+  max-width: 900px;
+}
+/* .row{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+/* termina seccion de venta */
+
+/* footer */
+
+.footer{
+  display: flex;
+  background-color: var(--color-celeste);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  font-size: 30px;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.contacto-footer a {
+  color: white;
+}

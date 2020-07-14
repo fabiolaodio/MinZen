@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 768px){
+  .fondo{
+    display: inherit;
+    height: auto;
+    margin-top: auto;
+  }
+
+  .main-section{
+    padding: 4%;
+  }
+  .descripcion{
+    font-size: 15px;
+  }
+  .beneficios{
+    display: inherit;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .descripcion{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* PARTE DE LAS MANCIONES */
+
+  .menciones{
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  .menciones{
+    display: inherit;
+  }
+}
